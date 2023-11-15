@@ -1,11 +1,11 @@
 ## Introduction: Frontend Assessment
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-Other tools used are React-Bootstrap, TailwindCSS and Headless UI.
+The application is created using Typescript and uses React-Bootstrap and TailwindCSS tools for designing the UI side.
 
-## Getting Started
+## Running the application
 
-1. Make sure you have node and npm installed in your environment. Then install needed packages by running `npm install` in the root folder.
+1. Make sure you have node and npm installed in your environment. Then install the needed packages by running `npm install` in the root folder.
 2. Run the development server using either of the commands below.
 
 ```bash
@@ -14,15 +14,15 @@ npm run dev
 yarn dev
 ```
 
-3. Open [http://localhost:3000](http://localhost:3000) to run the application in your chosen browser.
+3. Open [http://localhost:3000](http://localhost:3000) in your chosen browser.
 
 ## Exercise 1
 
-Displayed a responsive page based on the given designs and assets.
+Exercise 1 should display a responsive page based on the given designs and assets.
 
 ## Exercise 2
 
-Responsive display of `data.json` contents as either tabs or accordion.
+Exercise 2 also uses the concept of responsive displays. The contents of `data.json` should be shown in either tabs or accordion, depending on the screen size used.
 
 ###### Bonus:
 
