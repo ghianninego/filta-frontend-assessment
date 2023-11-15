@@ -1,7 +1,9 @@
 ## Introduction: Frontend Assessment
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-The application is created using Typescript and uses React-Bootstrap and TailwindCSS tools for designing the UI side.
+This is a [React.js](https://react.dev/) project that is built and bundled using [ViteJs](https://vitejs.dev/).
+The application is created using Typescript and uses React-Bootstrap with TailwindCSS tools for designing the UI side.
+
+For linting and code formatter, [Eslint](https://eslint.org/) and [Prettier](https://prettier.io/) are used.
 
 ## Running the application
 
@@ -27,4 +29,4 @@ Exercise 2 also uses the concept of responsive displays. The contents of `data.j
 ###### Bonus:
 
 - Question: Why does `('b' + 'a' + + 'a' + 'a').toLowerCase()` result to `banana`?
-- Answer: The space between the two `+`s is considered nullable. When this is added to another text or number (which in this case `a`), the result will be NaN (not a number). The code will now become: `ba` + `NaN` + `a` which then becomes "banana" after lowering the case.
+- Answer: The space between the two `+`s is considered nullable. When this is added to another variable (which in this case `a`), the result will be NaN (not a number). The code will now become: `ba` + `NaN` + `a` which then becomes "banana" after lowering the text case.
