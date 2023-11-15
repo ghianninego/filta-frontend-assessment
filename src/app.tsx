@@ -6,8 +6,9 @@ import {
 } from 'react-router-dom'
 
 // * Components
-import HomePage from 'src/pages/home-page'
+import Home from 'src/pages/home'
 import Exercise1 from 'src/pages/exercise-1'
+import Exercise2 from 'src/pages/exercise-2'
 
 const App = () => {
   return (
@@ -15,7 +16,8 @@ const App = () => {
       <Router>
         <Routes>
           <Route path='/exercise-1' element={<Exercise1 />} />
-          <Route path='/' element={<HomePage />} />
+          <Route path='/exercise-2' element={<Exercise2 />} />
+          <Route path='/' element={<Home />} />
           <Route path='*' element={<Navigate to='/' replace />} />
         </Routes>
       </Router>
