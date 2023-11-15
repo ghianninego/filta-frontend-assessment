@@ -1,11 +1,12 @@
 import { Link } from 'react-router-dom'
+import Container from 'react-bootstrap/Container'
 
 const HomePage = () => (
-  <div className='flex flex-col space-y-3 p-5'>
+  <Container className='flex flex-col space-y-3 p-5'>
     <p className='text-3xl font-bold'>Frontend Assessment</p>
     <ul className='list-disc list-inside'>
       <li>
-        <Link to='/' className='link'>
+        <Link to='/exercise-1' className='link'>
           Exercise 1
         </Link>
       </li>
@@ -15,7 +16,7 @@ const HomePage = () => (
         </Link>
       </li>
     </ul>
-  </div>
+  </Container>
 )
 
 export default HomePage

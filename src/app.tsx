@@ -4,22 +4,22 @@ import {
   Route,
   Navigate
 } from 'react-router-dom'
-import { Container } from 'react-bootstrap'
 
 // * Components
 import HomePage from 'src/pages/home-page'
+import Exercise1 from 'src/pages/exercise-1'
 
 const App = () => {
   return (
-    <Container fluid>
+    <div>
       <Router>
         <Routes>
-          {/* <Route path='/exercise-1' element={<CatPage />} /> */}
+          <Route path='/exercise-1' element={<Exercise1 />} />
           <Route path='/' element={<HomePage />} />
           <Route path='*' element={<Navigate to='/' replace />} />
         </Routes>
       </Router>
-    </Container>
+    </div>
   )
 }
 
