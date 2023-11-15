@@ -16,10 +16,10 @@ export const TabView = ({
   data: TData[]
 }) => (
   <Tabs
-    id='controlled-tab-example'
+    id='tab-view'
     activeKey={activeKey}
     onSelect={(key: string | null) => setActiveKey(key as string)}
-    className='mb-3'
+    fill
   >
     {data.map(({ title, content }) => (
       <Tab key={title} eventKey={title} title={title}>
