@@ -42,3 +42,10 @@ Thumbs.db
 *.sass-cache*
 node_modules
 /.idea
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+
+# Builds
+build
